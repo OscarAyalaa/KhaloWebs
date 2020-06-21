@@ -1,0 +1,19 @@
+#infoo h3, h4{
+    text-align: center;
+}
+
+#infoo .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#infoo article{
+    margin: 15px;
+        
+}
+
+#infoo img{
+    width: 100%;
+    max-width: px;
+}

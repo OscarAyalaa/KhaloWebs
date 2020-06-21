@@ -1,0 +1,35 @@
+#compromiso {
+    background: #D291BC;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#compromiso .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comp{
+    margin: 20px;
+}
+
+.comp img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+@media (min-width:480px){
+    .comp{
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px){
+    .comp{
+        width: 29%;
+    }
+}
